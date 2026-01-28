@@ -1,0 +1,89 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+input,
+textarea {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    outline: none;
+    padding: 8px 16px;
+    transition: 0.3s ease;
+}
+
+input {
+    height: 40px;
+}
+
+textarea {
+    height: 80px;
+}
+
+input:hover:not(:focus),
+textarea:hover:not(:focus) {
+    border: 1px solid #000;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #808080;
+}
+
+.feedback-form button,
+.form-submit-button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; /* 24px */
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    margin-top: 8px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.feedback-form button:hover,
+.form-submit-button:hover {
+    background-color: #6c8cff;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
